@@ -7,32 +7,16 @@ Menus {
             title: 'Home'
             url: '#wrapper'
             icon: ''
-            attributes: ''
-        }
-        Menuitem {
-            title: 'Slides'
-            url: '#slides'
-            icon: ''
             attributes: 'class="scrollTo"'
         }
-        Menuitem {
-            title: 'Portfolio'
-            url: '#portfolio'
-            icon: ''
-            attributes: 'class="scrollTo"'
-        }
+        
         Menuitem {
             title: 'Documentation'
             url: '#docu'
             icon: ''
             attributes: 'class="scrollTo"'
         }
-        Menuitem {
-            title: 'FAQ'
-            url: '#faq'
-            icon: ''
-            attributes: 'class="scrollTo"'
-        }
+        
         Menuitem {
             title: 'Downloads'
             url: '#downloads'
@@ -74,32 +58,16 @@ Menus {
             title: 'Home'
             url: '#wrapper'
             icon: ''
-            attributes: ''
-        }
-        Menuitem {
-            title: 'Vorschau'
-            url: '#slides'
-            icon: ''
             attributes: 'class="scrollTo"'
         }
-        Menuitem {
-            title: 'Portfolio'
-            url: '#portfolio'
-            icon: ''
-            attributes: 'class="scrollTo"'
-        }
+        
         Menuitem {
             title: 'Dokumentation'
             url: '#docu'
             icon: ''
             attributes: 'class="scrollTo"'
         }
-        Menuitem {
-            title: 'FAQ'
-            url: '#faq'
-            icon: ''
-            attributes: 'class="scrollTo"'
-        }
+        
         Menuitem {
             title: 'Downloads'
             url: '#downloads'
@@ -143,30 +111,14 @@ Menus {
             icon: ''
             attributes: ''
         }
-        Menuitem {
-            title: 'Slides'
-            url: 'index.html#slides'
-            icon: ''
-            attributes: ''
-        }
-        Menuitem {
-            title: 'Portfolio'
-            url: 'index.html#portfolio'
-            icon: ''
-            attributes: ''
-        }
+        
         Menuitem {
             title: 'Documentation'
             url: 'index.html#docu'
             icon: ''
             attributes: ''
         }
-        Menuitem {
-            title: 'FAQ'
-            url: 'index.html#faq'
-            icon: ''
-            attributes: ''
-        }
+        
         Menuitem {
             title: 'Downloads'
             url: 'index.html#downloads'
@@ -210,30 +162,14 @@ Menus {
             icon: ''
             attributes: ''
         }
-        Menuitem {
-            title: 'Vorschau'
-            url: 'index_de.html#slides'
-            icon: ''
-            attributes: ''
-        }
-        Menuitem {
-            title: 'Portfolio'
-            url: 'index_de.html#portfolio'
-            icon: ''
-            attributes: ''
-        }
+        
         Menuitem {
             title: 'Dokumentation'
             url: 'index_de.html#docu'
             icon: ''
             attributes: ''
         }
-        Menuitem {
-            title: 'FAQ'
-            url: 'index_de.html#faq'
-            icon: ''
-            attributes: ''
-        }
+        
         Menuitem {
             title: 'Downloads'
             url: 'index_de.html#downloads'

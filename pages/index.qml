@@ -18,7 +18,13 @@ Content {
             fullwidth: true
 
             Slide {
-                src: "/home/art/SourceCode/CrowdWare-Sub/flatsitebuilder/assets/images/tagcloud.png"
+                src: "/home/art/SourceCode/CrowdWare-Sub/flatsitebuilder/assets/images/banner.png"
+                adminlabel: "Slide 1"
+            }
+
+            Slide {
+                src: "/home/art/SourceCode/CrowdWare-Sub/ebc/assets/images/banner2.png"
+                adminlabel: "Slide 2"
             }
         }
     }
@@ -35,29 +41,18 @@ Content {
 &lt;h1&gt;
 	&lt;strong&gt;Welcome&lt;/strong&gt; to {{ site.title }}
 &lt;/h1&gt;
-&lt;p class=&quot;lead&quot;&gt;Did you know that you are able to host your project website on Github-Pages for free?&lt;/p&gt;
+&lt;p class=&quot;lead&quot;&gt;Easily create ebooks (epub) using markdown language. The books are targetted towards Amazon Kindle.&lt;/p&gt;
 &lt;p class=&quot;lead&quot;&gt;
-	The FlatSiteBuilder is a very easy to use content management system (CMS) and content 
-	creation tool running as a desktop application on Linux.
-	You are able to build web content which you can host on github pages for free or any 
-	other web space provider.
-	Because all of the pages are beeing build on the desktop it is the fastest content 
-	management system available. No code is executed on the web server.
-&lt;/p&gt;"
-                }
-            }
-        }
-    }
-
-    Section {
-
-        Row {
-
-            Column {
-                span: 12
-
-                Text {
-                    text: "&lt;div class=&quot;divider styleColor&quot;/&gt;"
+	The Ebook Creator is a very easy-to-use e-book creation tool that runs as a desktop application on Linux.&lt;/br&gt;
+	You can create books in EPUB format and PDF format simply by using markdown syntax to format your book.&lt;/br&gt;
+	For example, if you want to create a title, just add a hashtag &lt;strong&gt;#&lt;/strong&gt; in front of the title text and the title will become automatic
+	formatted as a title and also appear later in the table of contents.&lt;/br&gt;
+	For a subtitle, just use two hashtags &lt;strong&gt;##&lt;/strong&gt; and the title will become a subtitle in the table of contents.&lt;/br&gt;
+	If you want to display a word in &lt;i&gt;Italic&lt;/i&gt;, enter an asterisk before and after the word &lt;strong&gt;*Italic*&lt;/strong&gt;.&lt;/br&gt;
+	If you want to display a word in &lt;strong&gt;bold&lt;/strong&gt;, then enter two asterisks before and after the word &lt;strong&gt;**bold**&lt;/strong&gt;.&lt;/br&gt;
+&lt;/p&gt;
+&lt;div class=&quot;divider styleColor&quot;/&gt;"
+                    adminlabel: "Welcome"
                 }
             }
         }
@@ -71,7 +66,7 @@ Content {
                 span: 4
 
                 Image {
-                    src: "Dashboard.png"
+                    src: "ebc.png"
                 }
             }
 
@@ -79,8 +74,8 @@ Content {
                 span: 8
 
                 Text {
-                    text: "&lt;h3&gt;&lt;strong&gt;FlatSiteBuilder&lt;/strong&gt;&lt;/h3&gt;
-&lt;p class=&quot;lead&quot;&gt;The FlatSiteBuilder is a very easy to use content management system and content creation tool running as a desktop application on Linux.&lt;/p&gt;
+                    text: "&lt;h3&gt;&lt;strong&gt;Ebook Creator&lt;/strong&gt;&lt;/h3&gt;
+&lt;p class=&quot;lead&quot;&gt;The Ebook Creator is a very easy to use ebook creation tool running as a desktop application on Linux.&lt;/p&gt;
 &lt;p class=&quot;lead&quot;&gt;It is also planned to release versions for Windows and Mac OS.&lt;/p&gt;"
                 }
             }
@@ -98,8 +93,8 @@ Content {
                     text: "&lt;div class=&quot;featured-box nobg border-only&quot;&gt;
 	&lt;div class=&quot;box-content&quot;&gt;
 		&lt;i class=&quot;fa fa-thumbs-up&quot;&gt;&lt;/i&gt;
-		&lt;h4&gt;Fastest CMS&lt;/h4&gt;
-		&lt;p&gt;Because of the fact the FlatSiteBuilder only creates flat HTML files it is therefore the fastest CMS available.&lt;/p&gt;
+		&lt;h4&gt;Fast&lt;/h4&gt;
+		&lt;p&gt;Because of the fact that this app is focused on ebooks only, it&#x27;s faster to use than any other text processing software.&lt;/p&gt;
 	&lt;/div&gt;
 &lt;/div&gt;"
                 }
@@ -112,8 +107,8 @@ Content {
                     text: "&lt;div class=&quot;featured-box nobg border-only&quot;&gt;
 	&lt;div class=&quot;box-content&quot;&gt;
 		&lt;i class=&quot;fa fa-thumbs-up&quot;&gt;&lt;/i&gt;
-		&lt;h4&gt;Easiest CMS&lt;/h4&gt;
-		&lt;p&gt;Because of the fact that FlatSiteBuilder runs on the desktop it is therefore one of the easiest to use CMS avaiable.&lt;/p&gt;
+		&lt;h4&gt;Easy To Use&lt;/h4&gt;
+		&lt;p&gt;This software is very easy to use, because you can archieve your goals with just typing on your keyboard.&lt;/p&gt;
 	&lt;/div&gt;
 &lt;/div&gt;"
                 }
@@ -126,8 +121,8 @@ Content {
                     text: "&lt;div class=&quot;featured-box nobg border-only&quot;&gt;
 	&lt;div class=&quot;box-content&quot;&gt;
 		&lt;i class=&quot;fa fa-thumbs-up&quot;&gt;&lt;/i&gt;
-		&lt;h4&gt;Safest CMS&lt;/h4&gt;
-		&lt;p&gt;Because of the fact that we use github as version control for the content, FlatSiteBuilder is therefore the safest CMS available.&lt;/p&gt;
+		&lt;h4&gt;Safe to Use&lt;/h4&gt;
+		&lt;p&gt;Your documents are saved after every key press. You will never forget to save your changes anymore.&lt;/p&gt;
 	&lt;/div&gt;
 &lt;/div&gt;"
                 }
@@ -140,177 +135,8 @@ Content {
                     text: "&lt;div class=&quot;featured-box nobg border-only&quot;&gt;
 	&lt;div class=&quot;box-content&quot;&gt;
 		&lt;i class=&quot;fa fa-thumbs-up&quot;&gt;&lt;/i&gt;
-		&lt;h4&gt;Cheapest CMS&lt;/h4&gt;
-		&lt;p&gt;Because of the fact that hosting on github pages is free, FlatSiteBuilder is therefore the cheapest CMS available.&lt;/p&gt;
-	&lt;/div&gt;
-&lt;/div&gt;"
-                }
-            }
-        }
-    }
-
-    Section {
-
-        Row {
-
-            Column {
-                span: 12
-
-                Text {
-                    text: "&lt;div class=&quot;divider styleColor&quot;/&gt;"
-                }
-            }
-        }
-    }
-
-    Section {
-        id:  slides
-
-        Row {
-
-            Column {
-                span: 4
-
-                Text {
-                    text: "&lt;h3&gt;&lt;strong&gt;Preview&lt;/strong&gt;&lt;/h3&gt;
-&lt;p class=&quot;lead&quot;&gt;Here are sample preview pictures of the FlatSiteBuilder in action.&lt;/p&gt;"
-                    adminlabel: "Preview"
-                }
-            }
-
-            Column {
-                span: 8
-
-                Text {
-                    text: "&lt;div class=&quot;owl-carousel controlls-over&quot; data-plugin-options=&#x27;{&quot;items&quot;: 1, &quot;singleItem&quot;: true, &quot;navigation&quot;: false, &quot;pagination&quot;: false, &quot;transitionStyle&quot;:&quot;fadeUp&quot;, &quot;autoPlay&quot;: true}&#x27;&gt;
-	&lt;div&gt;
-		&lt;img alt=&quot;&quot; class=&quot;img-responsive&quot; src=&quot;assets/images/Editor.png&quot;&gt;
-	&lt;/div&gt;
-	&lt;div&gt;
-		&lt;img alt=&quot;&quot; class=&quot;img-responsive&quot; src=&quot;assets/images/Layout.png&quot;&gt;
-	&lt;/div&gt;
-	&lt;div&gt;
-		&lt;img alt=&quot;&quot; class=&quot;img-responsive&quot; src=&quot;assets/images/Columns.png&quot;&gt;
-	&lt;/div&gt;
-	&lt;div&gt;
-		&lt;img alt=&quot;&quot; class=&quot;img-responsive&quot; src=&quot;assets/images/Modules.png&quot;&gt;
-	&lt;/div&gt;
-&lt;/div&gt;"
-                }
-            }
-        }
-    }
-
-    Section {
-        id:  portfolio
-
-        Row {
-
-            Column {
-                span: 12
-
-                Text {
-                    text: "&lt;div class=&quot;divider styleColor&quot;&gt;&lt;/div&gt;
-&lt;h3&gt;&lt;strong&gt;Portfolio&lt;/strong&gt;&lt;/h3&gt;
-&lt;p class=&quot;lead&quot;&gt;Here you can see some pages which has been created using the FlatSiteBuilder.&lt;/p&gt;
-"
-                    adminlabel: "Portfolio"
-                }
-            }
-        }
-    }
-
-    Section {
-
-        Row {
-
-            Column {
-                span: 3
-
-                Text {
-                    text: "&lt;div class=&quot;item-box&quot;&gt;
-	&lt;figure&gt;
-		&lt;a class=&quot;item-hover&quot; href=&quot;https://crowdware.github.io/web/&quot;&gt;
-			&lt;span class=&quot;overlay color2&quot;&gt;&lt;/span&gt;
-			&lt;span class=&quot;inner&quot;&gt;
-				&lt;span class=&quot;block fa fa-plus fsize20&quot;&gt;&lt;/span&gt;
-				&lt;strong&gt;PROJECT&lt;/strong&gt; DETAIL
-			&lt;/span&gt;
-		&lt;/a&gt;
-		&lt;img class=&quot;img-responsive&quot; src=&quot;assets/images/crowdware.png&quot; width=&quot;260&quot; height=&quot;260&quot; alt=&quot;&quot;&gt;
-	&lt;/figure&gt;
-	&lt;div class=&quot;item-box-desc&quot;&gt;
-		&lt;h4&gt;CrowdWare&lt;/h4&gt;
-		&lt;small class=&quot;styleColor&quot;&gt;2017&lt;/small&gt;
-	&lt;/div&gt;
-&lt;/div&gt;"
-                }
-            }
-
-            Column {
-                span: 3
-
-                Text {
-                    text: "&lt;div class=&quot;item-box&quot;&gt;
-	&lt;figure&gt;
-		&lt;a class=&quot;item-hover&quot; href=&quot;https://www.artoftouch.site&quot;&gt;
-			&lt;span class=&quot;overlay color2&quot;&gt;&lt;/span&gt;
-			&lt;span class=&quot;inner&quot;&gt;
-				&lt;span class=&quot;block fa fa-plus fsize20&quot;&gt;&lt;/span&gt;
-				&lt;strong&gt;PROJECT&lt;/strong&gt; DETAIL
-			&lt;/span&gt;
-		&lt;/a&gt;
-		&lt;img class=&quot;img-responsive&quot; src=&quot;assets/images/artananda.png&quot; width=&quot;260&quot; height=&quot;260&quot; alt=&quot;&quot;&gt;
-	&lt;/figure&gt;
-	&lt;div class=&quot;item-box-desc&quot;&gt;
-		&lt;h4&gt;Art of Touch&lt;/h4&gt;
-		&lt;small class=&quot;styleColor&quot;&gt;2017&lt;/small&gt;
-	&lt;/div&gt;
-&lt;/div&gt;"
-                }
-            }
-
-            Column {
-                span: 3
-
-                Text {
-                    text: "&lt;div class=&quot;item-box&quot;&gt;
-	&lt;figure&gt;
-		&lt;a class=&quot;item-hover&quot; href=&quot;https://artanidos.github.io/AnimationMaker/&quot;&gt;
-			&lt;span class=&quot;overlay color2&quot;&gt;&lt;/span&gt;
-			&lt;span class=&quot;inner&quot;&gt;
-				&lt;span class=&quot;block fa fa-plus fsize20&quot;&gt;&lt;/span&gt;
-				&lt;strong&gt;PROJECT&lt;/strong&gt; DETAIL
-			&lt;/span&gt;
-		&lt;/a&gt;
-		&lt;img class=&quot;img-responsive&quot; src=&quot;assets/images/animationmaker.png&quot; width=&quot;260&quot; height=&quot;260&quot; alt=&quot;&quot;&gt;
-	&lt;/figure&gt;
-	&lt;div class=&quot;item-box-desc&quot;&gt;
-		&lt;h4&gt;AnimationMaker&lt;/h4&gt;
-		&lt;small class=&quot;styleColor&quot;&gt;2017&lt;/small&gt;
-	&lt;/div&gt;
-&lt;/div&gt;"
-                }
-            }
-
-            Column {
-                span: 3
-
-                Text {
-                    text: "&lt;div class=&quot;item-box&quot;&gt;
-	&lt;figure&gt;
-		&lt;a class=&quot;item-hover&quot; href=&quot;https://crowdware.github.io/nrg/&quot;&gt;
-			&lt;span class=&quot;overlay color2&quot;&gt;&lt;/span&gt;
-			&lt;span class=&quot;inner&quot;&gt;
-				&lt;span class=&quot;block fa fa-plus fsize20&quot;&gt;&lt;/span&gt;
-				&lt;strong&gt;PROJECT&lt;/strong&gt; DETAIL
-			&lt;/span&gt;
-		&lt;/a&gt;
-		&lt;img class=&quot;img-responsive&quot; src=&quot;assets/images/nrg.png&quot; width=&quot;260&quot; height=&quot;260&quot; alt=&quot;&quot;&gt;
-	&lt;/figure&gt;
-	&lt;div class=&quot;item-box-desc&quot;&gt;
-		&lt;h4&gt;NRG-Exchange&lt;/h4&gt;
-		&lt;small class=&quot;styleColor&quot;&gt;2017&lt;/small&gt;
+		&lt;h4&gt;Free Open Source&lt;/h4&gt;
+		&lt;p&gt;You will get the Ebook Creator for free. It&#x27;s open source software so everybody is able to enhance it.&lt;/p&gt;
 	&lt;/div&gt;
 &lt;/div&gt;"
                 }
@@ -327,31 +153,7 @@ Content {
 
                 Text {
                     text: "&lt;div class=&quot;divider styleColor&quot;&gt;&lt;/div&gt;"
-                }
-            }
-        }
-    }
-
-    Section {
-
-        Row {
-
-            Column {
-                span: 6
-
-                Text {
-                    text: "&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/azD13Ie88aY&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;"
-                }
-            }
-
-            Column {
-                span: 6
-
-                Text {
-                    text: "&lt;h3&gt;FlatSiteBuilder &lt;strong&gt;In Action&lt;/strong&gt;&lt;/h3&gt;
-&lt;p class=&quot;lead&quot;&gt;
-	This video shows how to create a website from scratch.
-&lt;/p&gt;"
+                    adminlabel: "divider"
                 }
             }
         }
@@ -359,19 +161,6 @@ Content {
 
     Section {
         id:  docu
-
-        Row {
-
-            Column {
-                span: 12
-
-                Text {
-                    text: "&lt;div class=&quot;divider styleColor&quot;&gt;&lt;/div&gt;
-"
-                    adminlabel: "divider"
-                }
-            }
-        }
 
         Row {
 
@@ -393,49 +182,6 @@ Content {
 &lt;p class=&quot;lead&quot;&gt;The Ebook Creator is open source. You will find the source code at &lt;a target=&quot;_blank&quot; href=&quot;https://bitbucket.org/artanidos/ebookcreator/src/master/&quot;&gt;Bitbucket&lt;/a&gt;.&lt;/p&gt;"
                     adminlabel: "Open Source"
                 }
-            }
-        }
-    }
-
-    Section {
-        id:  faq
-
-        Row {
-            cssclass: "featured-box-minimal margin-bottom30"
-
-            Column {
-                span: 12
-
-                Text {
-                    text: "&lt;div class=&quot;divider styleColor&quot;&gt;&lt;/div&gt;
-&lt;h3&gt;&lt;strong&gt;FAQ&lt;/strong&gt;&lt;/h3&gt;"
-                    adminlabel: "FAQ"
-                }
-            }
-        }
-
-        Row {
-
-            Column {
-                span: 4
-
-                Text {
-                    text: "&lt;h4&gt;&lt;i class=&quot;fa fa-question&quot;&gt;&lt;/i&gt; Where can I host my website?&lt;/h4&gt;
-&lt;p&gt;You can host your website with every hosting provider. We recommend to host your website with &lt;a href=&quot;https://pages.github.com/&quot;&gt;github-pages&lt;/a&gt; because it is free of charge.&lt;/p&gt;"
-                }
-            }
-
-            Column {
-                span: 4
-
-                Text {
-                    text: "&lt;h4&gt;&lt;i class=&quot;fa fa-question&quot;&gt;&lt;/i&gt; How can I integrate dynamic content?&lt;/h4&gt;
-&lt;p&gt;You can use services like &lt;a href=&quot;https://disqus.com/&quot;&gt;disqus&lt;/a&gt; to integrate comments for your blog posts for example. We are also using disqus, see below under comments.&lt;/p&gt;"
-                }
-            }
-
-            Column {
-                span: 4
             }
         }
     }
