@@ -108,7 +108,7 @@ Content {
 	&lt;div class=&quot;box-content&quot;&gt;
 		&lt;i class=&quot;fa fa-thumbs-up&quot;&gt;&lt;/i&gt;
 		&lt;h4&gt;Easy To Use&lt;/h4&gt;
-		&lt;p&gt;This software is very easy to use, because you can archieve your goals with just typing on your keyboard.&lt;/p&gt;
+		&lt;p&gt;This software is very easy to use, because you can achieve your goals with just typing on your keyboard.&lt;/p&gt;
 	&lt;/div&gt;
 &lt;/div&gt;"
                 }
